@@ -34,7 +34,7 @@ http://18.218.21.35:4000/api/user/register
 body: raw-->json
 {
         "name":"Nagarjuna",
-	"email":"nagarjuna.madineedi@infosys.com",
+	"email":"nagarjuna@infosys.com",
 	"password":"Infosys@123"
 }
 
