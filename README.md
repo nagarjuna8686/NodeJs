@@ -25,6 +25,7 @@ http://18.218.21.35:4200/
 FrontEnd: change ip to current vm ip: vim /root/new_project/src/app/service/api.service.ts
 Backend: change ip address to current vm ip: vim /root/new_project/backend/server.js
 
+sudo npm i dotenv bcryptjs jsonwebtoken @hapi/joi
 
 Api's:
 
