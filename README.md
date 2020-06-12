@@ -25,10 +25,14 @@ http://18.218.21.35:4200/
 FrontEnd: change ip to current vm ip: vim /root/new_project/src/app/service/api.service.ts
 Backend: change ip address to current vm ip: vim /root/new_project/backend/server.js
 
-sudo npm i dotenv bcryptjs jsonwebtoken @hapi/joi
+FrontEnd: npm i
+FrontEnd Start: ng serve --host 0.0.0.0 (port: 4200)
+
+
+Backend: sudo npm i dotenv bcryptjs jsonwebtoken @hapi/joi 
+Backend Start: sudo npm run start (port: 4000)
 
 Api's:
-
 Register Api:  http://localhost:4000/api/user/register
 
 http://18.218.21.35:4000/api/user/register
